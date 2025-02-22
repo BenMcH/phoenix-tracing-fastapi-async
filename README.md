@@ -13,3 +13,7 @@ Both examples will start a fastapi server using uvicorn with a single async endp
 This trace ID can then be used against phoenix APIs for validation.
 
 Tested and working against python 3.12.8
+
+## Docker
+
+This repo stands up a local phoenix server to validate results from. Simply run `docker compose up` and you'll have a default phoenix instance at http://localhost:6006/
